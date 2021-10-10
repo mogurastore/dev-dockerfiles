@@ -1,9 +1,6 @@
 name: Deploy firebase image
 
 on:
-  push:
-    branches:
-      - "releases/firebase"
   workflow_dispatch:
 
 env:

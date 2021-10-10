@@ -1,9 +1,6 @@
 name: Deploy rails image
 
 on:
-  push:
-    branches:
-      - "releases/rails"
   workflow_dispatch:
 
 env:
